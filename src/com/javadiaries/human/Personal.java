@@ -1,15 +1,15 @@
-package human;
-public class PersonalList extends HumanSource  {
+package com.javadiaries.human;
+public class Personal extends Human  {
 	 private int startingyear;
 	 private String unit;
 	  
-	 public PersonalList(String name_, String sname_,  String gender_,int age_,int startingyear,String unit)
+	 public Personal(String name, String lastName,  String gender,int age,int startingyYear,String unit)
 		{
 		 	
-			super(name_,sname_,gender_,age_);
-			this.startingyear=startingyear;
+			super(name,lastName,gender,age);
+			this.startingyear=startingyYear;
 			this.unit=unit;
-			System.out.println("New personel "+name_+" "+sname_+" added");
+			System.out.println("New personel "+name+" "+lastName+" added");
 			System.out.println("");
 		}
 	 
@@ -35,27 +35,27 @@ public class PersonalList extends HumanSource  {
 		return unit;
 	}
 	@Override
-	void set_sname(String s) {
+	void setLastName(String s) {
 		// TODO Auto-generated method stub
 		
 	}
 	@Override
-	String get_sname() {
+	String getLastName() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 	@Override
-	void set_gender(String g) {
+	void setGender(String g) {
 		// TODO Auto-generated method stub
 		
 	}
 	@Override
-	void update_name() {
+	void updateName() {
 		// TODO Auto-generated method stub
 		
 	}
 	@Override
-	void update_name(String s) {
+	void updateName(String s) {
 		// TODO Auto-generated method stub
 		
 	}

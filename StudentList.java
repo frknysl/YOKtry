@@ -9,7 +9,7 @@ public class StudentList extends HumanSource {
 		this.enrollyear=enrollyear;
 		this.department=department;
 		this.stuno=stuno;
-		System.out.println("New Student "+name_+" "+sname_+" added");
+		System.out.println("New Student " + name_ + " " + sname_ + " added");
 		System.out.println("");
 	}
 	
